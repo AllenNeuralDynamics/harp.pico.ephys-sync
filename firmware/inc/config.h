@@ -2,6 +2,8 @@
 #define CONFIG_H
 
 
+#define EPHYS_UART_SYNC_BAUDRATE (1000)
+
 #define UART_TX_PIN (0)
 #define HARP_SYNC_RX_PIN (5)
 #define HARP_CORE_LED_PIN (25)

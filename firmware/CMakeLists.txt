@@ -11,7 +11,7 @@ set(CMAKE_CXX_STANDARD 17)
 project(harp_c_app_example)
 
 pico_sdk_init()
-add_subdirectory(lib/harp.core.rp2040) # Path to harp.core.rp2040.
+add_subdirectory(lib/harp.core.rp2040/firmware) # Path to harp.core.rp2040.
 
 add_executable(${PROJECT_NAME}
     src/main.cpp
